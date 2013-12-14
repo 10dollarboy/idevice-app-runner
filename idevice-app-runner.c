@@ -34,8 +34,8 @@
 #include <string.h>
 #include <getopt.h>
 
-#include <libimobiledevice/libimobiledevice.h>
-#include <libimobiledevice/lockdown.h>
+#include "libimobiledevice/libimobiledevice.h"
+#include "libimobiledevice/lockdown.h"
 
 char *udid = NULL;
 char *apppath = NULL;
